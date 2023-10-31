@@ -1,0 +1,52 @@
+<style>
+    /* Reset some default styles for better consistency */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+.header { 
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the main content */
+.main {
+    background-color:burlywood;
+    max-height: 1000%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style sections within the main content */
+section {
+    margin-bottom: 20px;
+}
+.galcontainer {
+    background-color:black;
+    max-height: 800%;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px; 
+  
+}
+.galcontainer img {
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ 
+}
+.galcontainer h2 {
+    -webkit-text-fill-color: palegreen;
+}
+.galcontainer h4 {
+    -webkit-text-fill-color: bisque;
+}
+
+</style>
